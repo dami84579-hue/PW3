@@ -1,0 +1,20 @@
+{
+  "name": "inventario-api-backend",
+  "version": "1.0.0",
+  "description": "API REST de Gestión de Inventario con Express, SQLite3 y Socket.io",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node test/test_endpoints.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "socket.io": "^4.7.5",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "socket.io-client": "^4.7.5"
+  }
+}
+
