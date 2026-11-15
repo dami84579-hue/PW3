@@ -1,0 +1,23 @@
+{
+  "name": "unidad-3-spa-pwa-inventario",
+  "version": "1.0.0",
+  "description": "Aplicación SPA/PWA con Vue 3, consumo de API REST en tiempo real y soporte Offline",
+  "scripts": {
+    "start:backend": "cd backend_pw2 && npm start",
+    "start:frontend": "cd frontend && npm run dev",
+    "build:frontend": "cd frontend && npm run build",
+    "preview:frontend": "cd frontend && npm run preview"
+  },
+  "keywords": [
+    "vue3",
+    "spa",
+    "pwa",
+    "service-worker",
+    "sqlite3",
+    "rest-api",
+    "socketio"
+  ],
+  "author": "Alex Palma",
+  "license": "MIT"
+}
+
